@@ -1,37 +1,43 @@
-Program Title: Simple Calculator using Python
+# 🧮 Simple Calculator using Python
 
-Description:
-This is a basic command-line calculator that allows users to perform the following arithmetic operations:
+## 📋 Description
+This is a basic **command-line calculator** built using Python 🐍.  
+It allows users to perform the following arithmetic operations:
 
-Addition
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
 
-Subtraction
+The program continues running in a loop until the user chooses to exit 🚪.
 
-Multiplication
+---
 
-Division
+## ⚙️ How It Works
 
-The program runs continuously in a loop until the user chooses to exit.
+1. 🧭 Displays a menu with options:
+   - 1️⃣ Add  
+   - 2️⃣ Subtract  
+   - 3️⃣ Multiply  
+   - 4️⃣ Divide  
+   - 5️⃣ Exit
 
-How It Works:
+2. 🔢 The user selects an option by entering a number from **1 to 5**.
 
-The user is shown a menu of options (Add, Subtract, Multiply, Divide, Exit).
+3. 🧮 If the option is **1–4**, the user is prompted to enter two numbers.
 
-The user selects an option by entering a number from 1 to 5.
+4. ✅ The calculator performs the selected operation and displays the result.
 
-If a valid option (1–4) is chosen, the user is prompted to enter two numbers.
+5. ❌ If **option 5** is selected, the program exits.
 
-The selected operation is performed, and the result is displayed.
+6. 🛑 If an invalid input is provided, an error message is shown and the menu is repeated.
 
-If option 5 is chosen, the program exits.
+---
 
-If an invalid option is entered, the program shows an error message and repeats the menu.
+## 🌟 Features
 
-Features:
-
-Handles division by zero gracefully.
-
-Uses functions for each operation.
-
-Simple and interactive user interface via the terminal.
+- ✅ **Handles division by zero** gracefully with a warning.
+- 🔧 Uses **modular functions** for each operation.
+- 👨‍💻 Simple and interactive terminal interface.
+- 🔁 Keeps running until you choose to exit.
 
